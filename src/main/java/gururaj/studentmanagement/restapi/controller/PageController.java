@@ -1,4 +1,4 @@
-package gururaj.studentmanagement.restapi.controller;
+package gururaj.studentmanagement.restapi.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +11,6 @@ public class PageController {
     public String ping() {
         return "PING OK";
     }
-
     @GetMapping("/")
     public String index() {
         return "index";

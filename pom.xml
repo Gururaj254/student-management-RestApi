@@ -64,7 +64,10 @@
 		</dependency>
 	</dependencies>
 
+
+
 	<build>
+		<finalName>app-student</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
